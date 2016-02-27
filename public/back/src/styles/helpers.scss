@@ -1,0 +1,33 @@
+// 
+// Helper placeholders
+// 
+
+%clearfix {
+    &:before, &:after {
+        content: '';
+        display: table;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+}
+
+%center-horizontally {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+%center-vertically {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+%middle-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

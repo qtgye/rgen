@@ -1,0 +1,98 @@
+// 
+// Handles the styles for Create and Edit default forms
+// 
+
+.form {
+
+}
+
+
+
+.tab-pane {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+.form-image-input {
+    
+    // 
+    // Default
+    // 
+
+    .replace {
+        display: none;
+    }
+
+
+    // 
+    // Has image
+    // 
+
+    &.has-image {
+
+        .input-thumbnail {
+            display: inline-block;
+        }
+
+        .select {
+            display: none;
+        }
+
+        .replace {
+            display: inline;
+        }
+    }
+}
+
+
+
+.form-pdf-input {
+    
+    // 
+    // Default
+    // 
+
+    .replace {
+        display: none;
+    }
+
+    &:not(.has-error) {
+
+        .show-on-error {
+            display: none;
+        }
+    }
+
+
+    // 
+    // Not image
+    // 
+
+    &.has-file {
+
+        .select {
+            display: none;
+        }
+
+        .replace {
+            display: inline;
+        }
+    }
+}
+
+
+
+.input-thumbnail {
+    display: none;
+    text-align: center;
+}
+
+
+
+.input-image {
+    display: inline-block;
+    max-height: 150px;
+    max-width: 200px;
+}

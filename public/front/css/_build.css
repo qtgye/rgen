@@ -1,0 +1,35 @@
+.partners-card-container {
+  text-align: center;
+}
+
+.partner-card {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.gallery {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 0;
+}
+
+.gallery-item {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+.gallery-item .img {
+  height: 0;
+  position: relative;
+  padding-top: 66.66667%;
+  overflow: hidden;
+}
+.gallery-item img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}

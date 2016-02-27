@@ -1,0 +1,68 @@
+// 
+// Styles for items list
+// 
+
+.c-list {
+    
+    .panel-body {
+        overflow-x: auto;
+    }
+}
+
+
+
+.list-table {
+
+}
+
+
+
+.list-column-header {
+
+    th {
+        width: 1px;
+        white-space: nowrap;
+    }
+}
+
+
+
+.list-row {
+
+    td {
+        width: 1px;
+        white-space: nowrap;
+
+        &.text-overflow {
+            width: auto;
+            max-width: 20%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        &.wide {
+            width: auto;
+            max-width: 25%;
+            white-space: normal;
+            word-break: break-word;
+        }
+    }
+
+}
+
+
+
+img.list-thumbnail {
+    max-width: 150px;
+    max-height: 100px;
+
+    &.thumbnail-small {
+        height: 50px;
+    }
+}
+
+
+
+.center-text {
+    text-align: center !important;
+}

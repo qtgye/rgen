@@ -1,0 +1,356 @@
+.preview-success:before, .preview-success:after {
+  content: '';
+  display: table;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.preview-item .preview-btn, .preview-item.is-error .preview-error, .preview-item.is-aborted .preview-error, .preview-thumb-image, .image-select-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.c-upload {
+  position: relative;
+}
+.c-upload:not(.has-files) .hide-on-empty, .c-upload:not(.is-uploading) .show-on-uploading, .c-upload:not(.is-error) .show-on-error, .c-upload:not(.is-success) .show-on-success {
+  display: none;
+}
+.c-upload.has-files .hide-on-filled {
+  display: none;
+}
+.c-upload.is-uploading .hide-on-uploading {
+  display: none;
+}
+.c-upload.is-success .hide-on-success {
+  display: none;
+}
+.c-upload.is-error .hide-on-error {
+  display: none;
+}
+
+.preview-item:not(.is-aborted) .show-on-abort {
+  display: none;
+}
+.preview-item .preview-thumb,
+.preview-item .preview-text {
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+  opacity: 1;
+}
+.preview-item .preview-btn {
+  position: absolute;
+  margin-top: 15px;
+  -webkit-transition: margin .3s, opacity .3s;
+  transition: margin .3s, opacity .3s;
+  opacity: 0;
+}
+.preview-item .preview-error {
+  display: none;
+}
+.preview-item:hover .preview-thumb,
+.preview-item:hover .preview-text {
+  opacity: .6;
+}
+.preview-item:hover .preview-btn {
+  opacity: 1;
+  margin-top: 0;
+}
+.preview-item.is-uploading .preview-text {
+  opacity: .4;
+}
+.preview-item.is-uploading .preview-progress {
+  visibility: visible;
+  opacity: .8;
+  pointer-events: auto;
+}
+.preview-item.is-success .preview-success {
+  display: block;
+}
+.preview-item.is-success .preview-btn {
+  display: none;
+}
+.preview-item.is-error .preview-error {
+  display: block;
+}
+.preview-item.is-error .preview-btn {
+  display: none;
+}
+.preview-item.is-aborted .preview-error {
+  display: block;
+}
+.preview-item.is-aborted .preview-btn {
+  display: none;
+}
+
+.preview-thumb {
+  height: 0;
+  padding-top: calc( 2 / 3 * 100% );
+  overflow: hidden;
+  position: relative;
+}
+
+.preview-thumb-image {
+  position: absolute;
+  max-width: 100%;
+  display: none;
+}
+.preview-item.filetype-image .preview-thumb-image.thumbnail-image {
+  display: block;
+}
+.preview-item.filetype-video .preview-thumb-image.thumbnail-video {
+  display: block;
+}
+.preview-item.filetype-document .preview-thumb-image.thumbnail-document {
+  display: block;
+}
+.preview-item.filetype-audio .preview-thumb-image.thumbnail-audio {
+  display: block;
+}
+.preview-item.filetype-other .preview-thumb-image.thumbnail-other {
+  display: block;
+}
+
+.preview-meta {
+  text-align: center;
+}
+
+.preview-text {
+  text-align: center;
+  word-break: break-word;
+}
+
+.preview-progress {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: visibility .3s, opacity .3s, width .3s;
+  transition: visibility .3s, opacity .3s, width .3s;
+  position: absolute;
+  width: 0%;
+  height: 10px;
+  top: 0;
+  left: 0;
+  background-color: #000;
+}
+
+.preview-success {
+  display: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 3px;
+  color: green;
+  border-radius: 999px;
+  background-color: #fff;
+}
+.preview-success .fa {
+  position: relative;
+  float: right;
+}
+
+.preview-error {
+  width: 80%;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+}
+
+.reset-btn {
+  display: none;
+}
+.c-upload.is-error .reset-btn, .c-upload.is-success .reset-btn {
+  display: block;
+}
+
+.c-upload.is-uploading .clear-btn, .c-upload.is-error .clear-btn, .c-upload.is-success .clear-btn {
+  display: none;
+}
+
+.c-upload.is-uploading .add-btn, .c-upload.is-error .add-btn, .c-upload.is-success .add-btn, .c-upload.is-uploading
+.upload-btn, .c-upload.is-error
+.upload-btn, .c-upload.is-success
+.upload-btn {
+  display: none;
+}
+
+.media-link {
+  margin-right: 15px;
+}
+
+.c-list .panel-body {
+  overflow-x: auto;
+}
+
+.list-column-header th {
+  width: 1px;
+  white-space: nowrap;
+}
+
+.list-row td {
+  width: 1px;
+  white-space: nowrap;
+}
+.list-row td.text-overflow {
+  width: auto;
+  max-width: 20%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.list-row td.wide {
+  width: auto;
+  max-width: 25%;
+  white-space: normal;
+  word-break: break-word;
+}
+
+img.list-thumbnail {
+  max-width: 150px;
+  max-height: 100px;
+}
+img.list-thumbnail.thumbnail-small {
+  height: 50px;
+}
+
+.center-text {
+  text-align: center !important;
+}
+
+.tab-pane {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.form-image-input .replace {
+  display: none;
+}
+.form-image-input.has-image .input-thumbnail {
+  display: inline-block;
+}
+.form-image-input.has-image .select {
+  display: none;
+}
+.form-image-input.has-image .replace {
+  display: inline;
+}
+
+.form-pdf-input .replace {
+  display: none;
+}
+.form-pdf-input:not(.has-error) .show-on-error {
+  display: none;
+}
+.form-pdf-input.has-file .select {
+  display: none;
+}
+.form-pdf-input.has-file .replace {
+  display: inline;
+}
+
+.input-thumbnail {
+  display: none;
+  text-align: center;
+}
+
+.input-image {
+  display: inline-block;
+  max-height: 150px;
+  max-width: 200px;
+}
+
+.c-image-select.is-uploading {
+  pointer-events: none;
+}
+
+.c-image-select.is-uploading .modal-close {
+  pointer-events: none;
+}
+
+.c-image-select.is-uploading .image-select-tabheader {
+  pointer-events: none;
+}
+
+.images-tab,
+.upload-tab {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.image-select-item.is-active .panel-body {
+  background-color: lightblue;
+}
+.image-select-item .panel-body {
+  height: 150px;
+}
+
+.image-select-thumbnail {
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+.image-select-thumbnail:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 999;
+}
+
+.image-select-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.image-select-error {
+  display: none;
+}
+.c-image-select:not(.is-error) .image-select-error {
+  display: none;
+}
+
+.image-select-selectbtn {
+  display: inline-block;
+}
+.c-image-select.is-uploading .image-select-selectbtn {
+  display: none;
+}
+
+.image-select-abortbtn {
+  display: inline-block;
+  pointer-events: auto !important;
+}
+.c-image-select:not(.is-uploading) .image-select-abortbtn {
+  display: none;
+}
+
+.spinner-block {
+  display: none;
+}
+.c-image-select.is-uploading .spinner-block {
+  display: block;
+}
+
+.c-conditional-input:not(.type-short_text) .short_text-input {
+  display: none;
+}
+
+.c-conditional-input:not(.type-long_text) .long_text-input {
+  display: none;
+}
+
+.c-conditional-input:not(.type-editor) .editor-input {
+  display: none;
+}
+
+.c-conditional-input:not(.type-image) .image-input {
+  display: none;
+}

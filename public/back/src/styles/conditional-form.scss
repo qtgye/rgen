@@ -1,0 +1,16 @@
+.c-conditional-input {
+
+}
+
+
+
+@each $type in short_text, long_text, editor, image {
+
+    .#{$type}-input {
+        .c-conditional-input:not(.type-#{$type}) & {
+            display: none;
+        }
+    }   
+    
+
+}

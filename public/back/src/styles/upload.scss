@@ -1,0 +1,324 @@
+// 
+// Styles for the upload component
+// 
+
+
+.c-upload {
+
+}
+
+
+
+.c-upload {
+
+    position: relative;
+
+    //
+    // Default state
+    // 
+
+    &:not(.has-files) .hide-on-empty,
+    &:not(.is-uploading)  .show-on-uploading,
+    &:not(.is-error) .show-on-error,
+    &:not(.is-success) .show-on-success
+    {
+        display: none;
+    }
+    
+
+    // 
+    // Filled state (files are added to the upload stage)
+    // 
+
+    &.has-files {
+        .hide-on-filled {
+            display: none;
+        }
+    }
+
+
+    // 
+    // Uploading state
+    // 
+
+    &.is-uploading {
+
+        .hide-on-uploading {
+            display: none;
+        }
+    }
+
+
+    // 
+    // Upload success state
+    // 
+
+    &.is-success {
+
+        .hide-on-success {
+            display: none;
+        }
+    }
+
+
+    // 
+    // Upload error state
+    // 
+
+    &.is-error {
+
+        .hide-on-error {
+            display: none;
+        }
+    }
+
+}
+
+
+
+.preview-item {
+    
+    // 
+    // Default state
+    // 
+
+    &:not(.is-aborted) {
+        .show-on-abort {
+            display: none;
+        }
+    }
+    
+    .preview-thumb,
+    .preview-text {
+        transition: opacity .3s;
+        opacity: 1;
+    }
+
+    .preview-btn {
+        position: absolute;
+        margin-top: 15px;
+        transition: margin .3s, opacity .3s;
+        opacity: 0;
+        @extend %middle-center;
+    }
+
+    .preview-error {
+        display: none;
+    }
+
+
+    // 
+    // Hover state
+    // 
+
+    &:hover {
+        
+        .preview-thumb,
+        .preview-text {
+            opacity: .6;
+        }
+
+        .preview-btn {
+            opacity: 1;
+            margin-top: 0;
+        }
+    }
+
+
+    // 
+    // Uploading state 
+    // 
+
+    &.is-uploading {
+
+        .preview-text {
+            opacity: .4;            
+        }
+
+        .preview-progress {
+            visibility: visible;
+            opacity: .8;
+            pointer-events: auto;
+        }
+
+    }
+
+
+    // 
+    // Upload success state
+    // 
+
+    &.is-success {
+
+        .preview-success {
+            display: block;
+        }
+
+        .preview-btn {
+            display: none;
+        }
+    }
+
+
+    //
+    // Upload error state
+    // 
+
+    &.is-error {
+
+        .preview-error {
+            display: block;
+            @extend %middle-center;
+        }
+
+        .preview-btn {
+            display: none;
+        }
+    }
+
+    //
+    // Upload aborted state
+    // 
+
+    &.is-aborted {
+
+        .preview-error {
+            display: block;
+            @extend %middle-center;
+        }
+
+        .preview-btn {
+            display: none;
+        }
+    }
+
+}
+
+
+
+.preview-thumb {
+    // implement 3/2 landscape aspect ratio
+    height: 0;
+    padding-top: calc( 2 / 3 * 100% );
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+
+.preview-thumb-image {
+
+    position: absolute;
+    @extend %middle-center;
+    max-width: 100%;
+    display: none;
+
+    // 
+    // File types
+    // 
+
+    @each $filetype in image, video, document, audio, other {
+      .preview-item.filetype-#{$filetype} &.thumbnail-#{$filetype} {
+        display: block;
+      }
+    }
+
+}
+
+
+
+.preview-meta {
+    text-align: center;
+}
+
+
+
+.preview-text {
+    text-align: center;
+    word-break: break-word;
+}
+
+
+
+.preview-progress {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: visibility .3s, opacity .3s, width .3s;
+    position: absolute;
+    width: 0%;
+    height: 10px;
+    top: 0;
+    left: 0;
+    background-color: #000;    
+}
+
+
+
+.preview-success {
+    @extend %clearfix;
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 3px;
+    color: green;
+    border-radius: 999px;    
+    background-color: #fff;
+
+    .fa {
+        position: relative;
+        float: right;
+    }
+}
+
+
+
+.preview-error {
+    width: 80%;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;    
+}
+
+
+
+.reset-btn {
+    display: none;
+
+    .c-upload.is-error &,
+    .c-upload.is-success & {
+        display: block;
+    }
+}
+
+
+
+.clear-btn {
+
+    .c-upload.is-uploading &,
+    .c-upload.is-error &,
+    .c-upload.is-success & {
+        display: none;
+    }
+}
+
+
+
+.add-btn,
+.upload-btn {
+
+    .c-upload.is-uploading &,
+    .c-upload.is-error &,
+    .c-upload.is-success & {
+        display: none;
+    }
+}
+
+
+
+.media-link {
+    margin-right: 15px;
+}

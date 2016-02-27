@@ -1,0 +1,116 @@
+// 
+// Styles for Image Select Modal
+// 
+
+.c-image-select {
+    
+    &.is-uploading {
+        pointer-events: none;
+    }
+}
+
+
+
+.modal-close {
+
+    .c-image-select.is-uploading & {
+        pointer-events: none;
+    }
+}
+
+
+
+.image-select-tabheader {
+
+    .c-image-select.is-uploading & {
+        pointer-events: none;
+    }
+}
+
+
+
+.images-tab,
+.upload-tab {
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+.image-select-item {    
+    
+    &.is-active {
+        .panel-body {
+            background-color: lightblue;
+        }
+    }
+
+    .panel-body {
+        height: 150px;
+    }
+}
+
+
+
+.image-select-thumbnail {
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: transform .3s ease;
+
+    &:hover {
+        transform: scale(2);
+        z-index: 999;
+    }
+}
+
+
+
+.image-select-image {
+    max-height: 100%;
+    max-width: 100%;
+    @extend %middle-center;
+}
+
+
+
+.image-select-error {
+    display: none;
+
+    .c-image-select:not(.is-error) & {
+        display: none;
+    }
+}
+
+
+
+.image-select-selectbtn {
+    display: inline-block;
+
+    .c-image-select.is-uploading & {
+        display: none;
+    }
+
+}
+
+
+
+.image-select-abortbtn {
+    display: inline-block;
+    pointer-events: auto !important;
+
+    .c-image-select:not(.is-uploading) & {
+        display: none;
+    }
+}
+
+
+
+.spinner-block {
+    display: none;
+
+    .c-image-select.is-uploading & {
+        display: block;
+    }
+}

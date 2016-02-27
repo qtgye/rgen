@@ -1,0 +1,26 @@
+.gallery {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 0;
+}
+
+.gallery-item {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+
+    .img {
+        height: 0;
+        position: relative;
+        padding-top: ( 100% * 4 / 6 );
+        overflow: hidden;
+    }
+
+    img {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+}

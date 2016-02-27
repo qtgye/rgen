@@ -1,0 +1,1877 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ro",
+				"rows"
+			],
+			[
+				"confi",
+				"confirmModal"
+			],
+			[
+				"conf",
+				"confirmModal"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"get",
+				"getFileType"
+			],
+			[
+				"uplo",
+				"upload_max"
+			],
+			[
+				"ini_",
+				"ini_get"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"error",
+				"errorText"
+			],
+			[
+				"abort",
+				"abortBtn"
+			],
+			[
+				"upl",
+				"uploadBtn"
+			],
+			[
+				"on",
+				"onUploadError"
+			],
+			[
+				"clea",
+				"clearBtn"
+			],
+			[
+				"file",
+				"fileObjects"
+			],
+			[
+				"_file",
+				"_fileObject"
+			],
+			[
+				"mo",
+				"moduleName"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"uc",
+				"ucfirst"
+			],
+			[
+				"foreach",
+				"foreach	blade-foreach"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"com",
+				"compact"
+			],
+			[
+				"url",
+				"urldecode"
+			],
+			[
+				"if",
+				"if	blade-if"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ad",
+				"adItem"
+			],
+			[
+				"js",
+				"js-takeover"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"is",
+				"isRefresh"
+			],
+			[
+				"el",
+				"elements"
+			],
+			[
+				"colle",
+				"collectionContainer"
+			],
+			[
+				"adRe",
+				"adRefresh"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"resi",
+				"resizeTimer"
+			],
+			[
+				"post_date",
+				"post_dates"
+			],
+			[
+				"fix",
+				"fixWrapper"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"user",
+				"user_agent"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"fetc",
+				"fetchImages"
+			],
+			[
+				"fet",
+				"fetching"
+			],
+			[
+				"flicki",
+				"flickity"
+			],
+			[
+				"heart",
+				"heart-filled"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"flick",
+				"flickityData"
+			],
+			[
+				"gr",
+				"groupIndex"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"breaker",
+				"breaker_articles"
+			],
+			[
+				"brdr",
+				"border-radius"
+			],
+			[
+				"is_arch",
+				"is_post_type_archive"
+			],
+			[
+				"is_ca",
+				"is_category"
+			],
+			[
+				"curt",
+				"curtainHide"
+			],
+			[
+				"z",
+				"z	z-index"
+			],
+			[
+				"exp",
+				"expire"
+			],
+			[
+				"rela",
+				"relatedArtiles"
+			],
+			[
+				"repl",
+				"replaceData"
+			],
+			[
+				"current",
+				"currentFilterItem"
+			],
+			[
+				"designer",
+				"designer_name"
+			],
+			[
+				"sea",
+				"season"
+			],
+			[
+				"curren",
+				"currentFilterValue"
+			],
+			[
+				"desi",
+				"designer_id"
+			],
+			[
+				"twitter",
+				"twitter_share_link"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"bookma",
+				"bookmarks"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"init",
+				"initializePopups"
+			],
+			[
+				"ini",
+				"initializedTakeover"
+			],
+			[
+				"parse",
+				"parse_url"
+			],
+			[
+				"show",
+				"show_overlay"
+			],
+			[
+				"is_ar",
+				"is_archive"
+			],
+			[
+				"inlin",
+				"inline-table"
+			],
+			[
+				"inner",
+				"innerFilter"
+			],
+			[
+				"_filter",
+				"_filterBlock"
+			],
+			[
+				"re",
+				"refineItems"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"inn",
+				"innerFilter"
+			],
+			[
+				"_inn",
+				"_innerFilter"
+			],
+			[
+				"data-",
+				"data-target-anchor"
+			],
+			[
+				"tar",
+				"targetAnchor"
+			],
+			[
+				"an",
+				"anchor"
+			],
+			[
+				"fashion",
+				"fashionCarousel"
+			],
+			[
+				"fash",
+				"fashionCarousel"
+			],
+			[
+				"first",
+				"first_chars"
+			],
+			[
+				"in",
+				"in_array"
+			],
+			[
+				"update",
+				"updateNavButtons"
+			],
+			[
+				"filter",
+				"filterValues"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"isn",
+				"is_null"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"side",
+				"side_modules"
+			],
+			[
+				"prod",
+				"product_name"
+			],
+			[
+				"shopp",
+				"shoppable"
+			],
+			[
+				"shoppable",
+				"shoppable_link"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"sel",
+				"selectedIndex"
+			],
+			[
+				"info",
+				"infoCarouselData"
+			],
+			[
+				"images",
+				"imagesCarousel"
+			],
+			[
+				"lo",
+				"loadAdditionalArticles"
+			],
+			[
+				"upd",
+				"updateMetrics"
+			],
+			[
+				"break",
+				"breakpoint"
+			],
+			[
+				"curr",
+				"currentArticles"
+			],
+			[
+				"is_in",
+				"is_integer"
+			],
+			[
+				"has",
+				"hasMoreItems"
+			],
+			[
+				"image",
+				"imageLoaded"
+			],
+			[
+				"is_user",
+				"is_user_logged_in"
+			],
+			[
+				"acc",
+				"accepted_keys"
+			],
+			[
+				"galler",
+				"galleries"
+			],
+			[
+				"gallery",
+				"galleryClose"
+			],
+			[
+				"cu",
+				"currentGallery"
+			],
+			[
+				"related",
+				"relatedGalleries"
+			],
+			[
+				"aside",
+				"asideCarousel"
+			],
+			[
+				"fli",
+				"flickityData"
+			],
+			[
+				"upda",
+				"updateDrawerHeight"
+			],
+			[
+				"accoun",
+				"accountContainer"
+			],
+			[
+				"aco",
+				"accountModal"
+			],
+			[
+				"feeds",
+				"feedsContainer"
+			],
+			[
+				"m",
+				"mainContainer"
+			],
+			[
+				"feed",
+				"feedItems"
+			],
+			[
+				"load",
+				"loadedItems"
+			],
+			[
+				"f",
+				"feedsContainer"
+			],
+			[
+				"fie",
+				"feedItems"
+			],
+			[
+				"group",
+				"groups"
+			],
+			[
+				"fee",
+				"feedItem"
+			],
+			[
+				"Flicki",
+				"Flickity"
+			],
+			[
+				"window",
+				"windowWidth"
+			],
+			[
+				"flic",
+				"flickityOptions"
+			],
+			[
+				"sf",
+				"sfloves_tags"
+			],
+			[
+				"wp_get_post",
+				"wp_get_post_terms"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/AdminPagesController.php",
+			"settings":
+			{
+				"buffer_size": 2722,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/ProductsController.php",
+			"settings":
+			{
+				"buffer_size": 1831,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Media.php",
+			"settings":
+			{
+				"buffer_size": 939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jacebuquia/Jace/_resources/_templates/NiceAdmin/general.html",
+			"settings":
+			{
+				"buffer_size": 57558,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/admin/all.blade.php",
+			"settings":
+			{
+				"buffer_size": 1579,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/admin/_partials/all_product.blade.php",
+			"settings":
+			{
+				"buffer_size": 1300,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/admin/_partials/all_media.blade.php",
+			"settings":
+			{
+				"buffer_size": 1207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/back/src/scripts/upload.js",
+			"settings":
+			{
+				"buffer_size": 10106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/back/src/scripts/list.js",
+			"settings":
+			{
+				"buffer_size": 2265,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "php",
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jacebuquia/Sites/rgen",
+		"/Users/jacebuquia/Sites/rgen/app",
+		"/Users/jacebuquia/Sites/rgen/app/Exceptions",
+		"/Users/jacebuquia/Sites/rgen/app/Http",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Requests",
+		"/Users/jacebuquia/Sites/rgen/public",
+		"/Users/jacebuquia/Sites/rgen/public/back",
+		"/Users/jacebuquia/Sites/rgen/public/back/src",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/scripts",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/styles",
+		"/Users/jacebuquia/Sites/rgen/resources",
+		"/Users/jacebuquia/Sites/rgen/resources/views",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_layouts",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials",
+		"/Users/jacebuquia/Sites/rgen/resources/views/errors",
+		"/Users/jacebuquia/Sites/rgen/resources/views/front"
+	],
+	"file_history":
+	[
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/sidebar.blade.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/MediaController.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/create.blade.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/AdminPagesController.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/ProductsController.php",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/styles/list.scss",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/footer.blade.php",
+		"/Users/jacebuquia/Sites/rgen/app/Product.php",
+		"/Users/jacebuquia/Sites/rgen/assets.json",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/scripts/modal.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/scripts/list.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/styles/main.scss",
+		"/Users/jacebuquia/Sites/rgen/gulpfile.js",
+		"/Users/jacebuquia/Sites/rgen/app/Media.php",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/styles/upload.scss",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/media_upload.blade.php",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/scripts/upload.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/scripts/_app.js",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/header.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/index.blade.php",
+		"/Users/jacebuquia/Sites/rgen/package.json",
+		"/Users/jacebuquia/Sites/rgen/.htaccess",
+		"/Users/jacebuquia/Sites/rgen/public/.htaccess",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/form_media.blade.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_22_110219_add_title_and_description_to_media.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/APIController.php",
+		"/Users/jacebuquia/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/jacebuquia/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/scripts/helpers.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/js/_build.js",
+		"/Users/jacebuquia/Sites/rgen/node_modules/gulp-sass/node_modules/node-sass/node_modules/request/lib/helpers.js",
+		"/Users/jacebuquia/Jace/_resources/_templates/NiceAdmin/buttons.html",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/styles/helpers.scss",
+		"/Users/jacebuquia/Sites/rgen/.sass-cache/74767b246805fc60aaa9ede0a66d1b669c2608a1/main.scssc",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/scripts/main.js",
+		"/Users/jacebuquia/Sites/rgen/node_modules/gulp-sass/node_modules/node-sass/scripts/build.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/css/_build.css",
+		"/Users/jacebuquia/Sites/rgen/public/main.scss",
+		"/Users/jacebuquia/Sites/rgen/public/back/src/styles/_main.scss",
+		"/Users/jacebuquia/Sites/rgen/public/back/css/style.css",
+		"/Users/jacebuquia/Sites/rgen/public/back/css/custom.css",
+		"/Users/jacebuquia/Sites/rgen/public/gulpfile.js",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/form_product.blade.php",
+		"/Users/jacebuquia/Downloads/test.php",
+		"/Users/jacebuquia/Downloads/test.js",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/all.blade.php",
+		"/Users/jacebuquia/Jace/_resources/_templates/NiceAdmin/basic_table.html",
+		"/Users/jacebuquia/Jace/_resources/_templates/NiceAdmin/general.html",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_layouts/page.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/form_products.blade.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_19_041416_add_size_to_media.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_19_042047_make_meta_columns_nullable.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_19_033737_change_product_media_columns.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_19_033436_create_media_table.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Requests/Request.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Requests/ProductRequest.php",
+		"/Users/jacebuquia/Sites/rgen/config/app.php",
+		"/Users/jacebuquia/Sites/rgen/composer.json",
+		"/Users/jacebuquia/Jace/_resources/NiceAdmin/form_component.html",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/form_news.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/form_faqs.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/form_partners.blade.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Requests/CreateProductRequest.php",
+		"/Users/jacebuquia/Jace/_resources/NiceAdmin/form_validation.html",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_17_051709_add_name_column_to_products.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_17_050538_rename_logo_column_to_image.php",
+		"/Users/jacebuquia/Sites/rgen/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/Users/jacebuquia/Sites/rgen/app/HomepageCarousel.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/form_infos.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/errors/404.blade.php",
+		"/Users/jacebuquia/Jace/_resources/NiceAdmin/404.html",
+		"/Users/jacebuquia/Sites/rgen/public/back/js/form-component.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/js/scripts.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/js/bootstrap-wysiwyg-custom.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/assets/ckeditor/ckeditor.js",
+		"/Users/jacebuquia/Sites/rgen/public/back/js/bootstrap-wysiwyg.js",
+		"/Users/jacebuquia/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jacebuquia/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jacebuquia/Jace/_resources/NiceAdmin/basic_table.html",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/Admin/AdminProductsController.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/PagesController.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/products.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/all.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/front/index.blade.php",
+		"/Users/jacebuquia/Jace/_resources/NiceAdmin/index.html",
+		"/Users/jacebuquia/Sites/rgen/app/Http/routes.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/front/_partials/footer.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/products_create.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/front/_partials/header.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/index.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/front/_partials/nav.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/_partials/_layouts.blade.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/AdminController.php",
+		"/Users/jacebuquia/Sites/rgen/app/Providers/RouteServiceProvider.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/page.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/header.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/admin/sidebar.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/pages/home.blade.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_16_144821_drop_homepage_carousel_table.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/_layouts/footer.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/_layouts/header.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/front/pages/index.blade.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/HomepageController.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_16_034940_create_honmepage_carouse_table.php",
+		"/Users/jacebuquia/Sites/rgen-website-2/index.html",
+		"/Users/jacebuquia/Sites/rgen/resources/_layouts/header.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/_layouts/footer.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/_layouts/nav.blade.php",
+		"/Users/jacebuquia/Sites/rgen/resources/views/index.php",
+		"/Users/jacebuquia/Sites/rgen/.env",
+		"/Users/jacebuquia/Sites/rgen/config/database.php",
+		"/Users/jacebuquia/Sites/rgen/bootstrap/app.php",
+		"/Users/jacebuquia/Sites/rgen/config/auth.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/HomepageCarouselController.php",
+		"/Users/jacebuquia/Sites/rgen/app/Http/Controllers/Controller.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_16_040721_create_new_table.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_16_040538_create_faqs_table.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_16_035436_create_partners_table.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_16_035935_create_info_table.php",
+		"/Users/jacebuquia/Sites/rgen/database/migrations/2016_02_16_040203_create_products_table.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/app/Http/Controllers/ArticlesController.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/app/Article.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/resources/views/singles/article.blade.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/resources/views/missing_entry/article.blade.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/resources/views/create/article.blade.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/resources/views/lists/articles.blade.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/app/Http/routes.php",
+		"/Users/jacebuquia/Sites/laravel_test_01/app/Http/Controllers/missing_entry"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"flexible",
+			")\n",
+			"list-column-header",
+			"<th>",
+			"clear",
+			"document",
+			".addClass",
+			"-');\n",
+			"_fileype",
+			"file.type",
+			"_file.type",
+			".log",
+			"_fileObject",
+			"reset",
+			"progress",
+			"meta_1",
+			".log",
+			"console.log('fileObjects',fileObjects);",
+			"{\n",
+			".log",
+			"isfilePresent",
+			"filesCount",
+			"void",
+			"false",
+			"requestCounts",
+			"successCallback",
+			"isPre",
+			"console.log('_fileObject',_fileObject);",
+			"'_fileObject'",
+			"jsdocs_align_tags",
+			"fileURLMap",
+			"template",
+			"filesObjects",
+			"fileObjects",
+			"            \n",
+			"    ",
+			"-50%;",
+			"@extend %center;",
+			"transf",
+			"= re",
+			"em",
+			"button",
+			"controller_page",
+			"controller_pages",
+			"$this->update_page_data($model_name);",
+			"<!-- <i class=\"",
+			"--> ",
+			"<i class=\"icon_cogs\"></i>",
+			"<i class=\"",
+			"file",
+			"image",
+			"->nullable()",
+			"change",
+			"\">",
+			"<option value=\"",
+			"</option>",
+			"\">",
+			"<option value=\"",
+			"csrf-token",
+			"<span class=\"r",
+			"$image",
+			"'image'",
+			"news_title",
+			"redirect('admin')",
+			"partners_question",
+			"partners_name",
+			"category_products",
+			"partners_description",
+			"partners_name",
+			" {{",
+			"partners_video",
+			"partners_name",
+			"description_products",
+			"Default",
+			"product_image",
+			"replace",
+			"replac",
+			"replc",
+			".replace",
+			"editor",
+			"ck ed",
+			"edito",
+			"#edito",
+			"<script",
+			"script",
+			"#edi",
+			"editor",
+			"#editor",
+			"bootstrap-wysiwyg.js",
+			"#edi",
+			"editor",
+			"editor-toolbar",
+			"bootstre",
+			"type=\"text/javascript\" ",
+			"js/",
+			"/back/fullcalendar/",
+			"form_type",
+			"form_category",
+			"form_type",
+			"current_page",
+			"TABLE",
+			"src=\"",
+			"href=\"",
+			"asset(",
+			"back",
+			"back/",
+			"AdminProductsController",
+			"AdminProductController",
+			",",
+			"	",
+			"     ",
+			"    ",
+			"src=\"",
+			"front/",
+			".css\" rel=\"stylesheet\"",
+			"css/",
+			"rel=\"styleshee'",
+			"css/",
+			"_layouts",
+			"left",
+			"_partials",
+			"$article",
+			"article",
+			"echo",
+			"n set",
+			"set",
+			"$attributes",
+			"');\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								769,
+								769
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Controllers/AdminPagesController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2187,
+								2187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 514.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/ProductsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								982,
+								982
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Media.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jacebuquia/Jace/_resources/_templates/NiceAdmin/general.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57153,
+								57110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/admin/all.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/admin/_partials/all_product.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/admin/_partials/all_media.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/back/src/scripts/upload.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3761,
+								3801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1053.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/back/src/scripts/list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1194,
+								1194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "",
+	"project": "rgen.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"admin",
+				"app/Http/Controllers/AdminPagesController.php"
+			],
+			[
+				"side",
+				"resources/views/admin/_partials/sidebar.blade.php"
+			],
+			[
+				"mediacon",
+				"app/Http/Controllers/MediaController.php"
+			],
+			[
+				"list",
+				"public/back/src/scripts/list.js"
+			],
+			[
+				"create",
+				"resources/views/admin/create.blade.php"
+			],
+			[
+				"product.",
+				"app/Product.php"
+			],
+			[
+				"asse",
+				"assets.json"
+			],
+			[
+				"footer",
+				"resources/views/admin/_partials/footer.blade.php"
+			],
+			[
+				"list.j",
+				"public/back/src/scripts/list.js"
+			],
+			[
+				"asset",
+				"assets.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"media.",
+				"app/Media.php"
+			],
+			[
+				"upload",
+				"public/back/src/scripts/upload.js"
+			],
+			[
+				"header.bl",
+				"resources/views/admin/_partials/header.blade.php"
+			],
+			[
+				"header.b",
+				"resources/views/admin/_partials/header.blade.php"
+			],
+			[
+				"sidebar",
+				"resources/views/admin/_partials/sidebar.blade.php"
+			],
+			[
+				"_to_media",
+				"database/migrations/2016_02_22_110219_add_title_and_description_to_media.php"
+			],
+			[
+				"mediacontroll",
+				"app/Http/Controllers/MediaController.php"
+			],
+			[
+				"_app",
+				"public/back/src/scripts/_app.js"
+			],
+			[
+				"helpers.js",
+				"public/back/src/scripts/helpers.js"
+			],
+			[
+				"_build",
+				"public/back/js/_build.js"
+			],
+			[
+				"gulpfil",
+				"gulpfile.js"
+			],
+			[
+				"assets.",
+				"assets.json"
+			],
+			[
+				"_app.",
+				"public/back/src/scripts/_app.js"
+			],
+			[
+				"app.js",
+				"public/back/src/scripts/_app.js"
+			],
+			[
+				"_footer.bla",
+				"resources/views/admin/_partials/footer.blade.php"
+			],
+			[
+				"_header.b",
+				"resources/views/admin/_partials/header.blade.php"
+			],
+			[
+				"ass",
+				"assets.json"
+			],
+			[
+				"helpers",
+				"public/back/src/styles/helpers.scss"
+			],
+			[
+				"helper",
+				"public/back/src/styles/helpers.scss"
+			],
+			[
+				"main.scss",
+				"public/back/src/styles/main.scss"
+			],
+			[
+				"header.bla",
+				"resources/views/admin/_partials/header.blade.php"
+			],
+			[
+				"main.sj",
+				"public/back/src/scripts/main.js"
+			],
+			[
+				"build.js",
+				"node_modules/gulp-sass/node_modules/node-sass/scripts/build.js"
+			],
+			[
+				"assets",
+				"assets.json"
+			],
+			[
+				"media",
+				"app/Media.php"
+			],
+			[
+				"poser",
+				"composer.json"
+			],
+			[
+				"productscontroller",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"/model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"scripts",
+				"public/back/js/scripts.js"
+			],
+			[
+				"compon",
+				"public/back/js/form-component.js"
+			],
+			[
+				"scripts.js",
+				"public/back/js/scripts.js"
+			],
+			[
+				"bootstrap-wysiwyg-custom.js",
+				"public/back/js/bootstrap-wysiwyg-custom.js"
+			],
+			[
+				"ckeditor.js",
+				"public/back/assets/ckeditor/ckeditor.js"
+			],
+			[
+				"form-component.js",
+				"public/back/js/form-component.js"
+			],
+			[
+				"wy",
+				"public/back/js/bootstrap-wysiwyg-custom.js"
+			],
+			[
+				"bootstrap-wysiwyg.js",
+				"public/back/js/bootstrap-wysiwyg.js"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"uctscon",
+				"app/Http/Controllers/Admin/AdminProductsController.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"footer.",
+				"resources/views/admin/_partials/footer.blade.php"
+			],
+			[
+				"mincon",
+				"app/Http/Controllers/AdminController.php"
+			],
+			[
+				"routes",
+				"app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"pagecon",
+				"app/Http/Controllers/HomepageController.php"
+			],
+			[
+				"/redirect",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Redirect.php"
+			],
+			[
+				"eloquent/mo",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"eloquent/model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"add_slug",
+				"database/migrations/2016_02_15_081313_add_slug_to_aricles.php"
+			],
+			[
+				"create_",
+				"database/migrations/2016_02_15_065555_create_events_table.php"
+			],
+			[
+				"add_exc",
+				"database/migrations/2016_02_15_052712_add_excerpt_to_articles.php"
+			],
+			[
+				"takeove",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/takeover.js"
+			],
+			[
+				"takeo",
+				"wp-content/themes/savoir-flair/assets/styles/components/_takeover.scss"
+			],
+			[
+				"ads.js",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/ads.js"
+			],
+			[
+				"takeover",
+				"wp-content/themes/savoir-flair/assets/styles/components/_takeover.scss"
+			],
+			[
+				"takero",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/takeover.js"
+			],
+			[
+				"sf_function-br",
+				"wp-content/themes/savoir-flair/lib/functions/sf_function-breaker.php"
+			],
+			[
+				"curtain",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/curtain.js"
+			],
+			[
+				"ads.",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/ads.js"
+			],
+			[
+				"special",
+				"wp-content/themes/savoir-flair/templates/special-header.php"
+			],
+			[
+				"base",
+				"wp-content/themes/savoir-flair/base.php"
+			],
+			[
+				"header",
+				"wp-content/themes/savoir-flair/templates/header.php"
+			],
+			[
+				"accountmo",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/accountModal.js"
+			],
+			[
+				"templates.php",
+				"wp-content/themes/savoir-flair/templates/components/templates.php"
+			],
+			[
+				"templates",
+				"wp-content/themes/savoir-flair/templates/components/templates.php"
+			],
+			[
+				"accountcoll",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/accountCollection.js"
+			],
+			[
+				"ara",
+				"wp-content/themes/savoir-flair/assets/styles/arabic.scss"
+			],
+			[
+				"breaker",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/breaker.js"
+			],
+			[
+				"help",
+				"wp-content/themes/savoir-flair/lib/helper.php"
+			],
+			[
+				"media-par",
+				"wp-content/themes/savoir-flair/templates/components/article-listings/media-part-default.php"
+			],
+			[
+				"media.php",
+				"wp-content/themes/savoir-flair/templates/components/article-listings/media.php"
+			],
+			[
+				"home",
+				"wp-content/themes/savoir-flair/templates/components/landing-page/homepage-listing.php"
+			],
+			[
+				"bas",
+				"wp-content/themes/savoir-flair/base.php"
+			],
+			[
+				"accoucoll",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/accountCollection.js"
+			],
+			[
+				"front",
+				"wp-content/themes/savoir-flair/front-page.php"
+			],
+			[
+				"homepa",
+				"wp-content/themes/savoir-flair/templates/components/landing-page/homepage-listing.php"
+			],
+			[
+				"ads",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/ads.js"
+			],
+			[
+				"templa",
+				"wp-content/themes/savoir-flair/templates/components/templates.php"
+			],
+			[
+				"brekaker-sp",
+				"wp-content/themes/savoir-flair/templates/components/breaker/breaker-special-edit.php"
+			],
+			[
+				"sf",
+				"wp-content/themes/savoir-flair/lib/functions/sf_function-fashion-week.php"
+			],
+			[
+				"carousel-look",
+				"wp-content/themes/savoir-flair/templates/components/carousel/carousel-lookbook.php"
+			],
+			[
+				"carousel-full",
+				"wp-content/themes/savoir-flair/templates/components/carousel/carousel-full.php"
+			],
+			[
+				"tab.js",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/tab.js"
+			],
+			[
+				"config",
+				"wp-config.php"
+			],
+			[
+				"highlights",
+				"wp-content/themes/savoir-flair/assets/styles/components/fashion-week/_highlights.scss"
+			],
+			[
+				"head",
+				"wp-content/themes/savoir-flair/templates/head.php"
+			],
+			[
+				"fashionshow",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/fashionShow.js"
+			],
+			[
+				"laz",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/lazyloadImage.js"
+			],
+			[
+				"fashion-week-v",
+				"wp-content/themes/savoir-flair/assets/styles/arabic/_fashion-week-overlay.scss"
+			],
+			[
+				"overlayscss",
+				"wp-content/themes/savoir-flair/assets/styles/components/fashion-week/_overlay.scss"
+			],
+			[
+				"account-mo",
+				"wp-content/themes/savoir-flair/assets/styles/components/_account-modal.scss"
+			],
+			[
+				"article-men",
+				"wp-content/themes/savoir-flair/templates/article-menubar.php"
+			],
+			[
+				"account-moda",
+				"wp-content/themes/savoir-flair/assets/styles/components/_account-modal.scss"
+			],
+			[
+				"wp-",
+				"wp-config.php"
+			],
+			[
+				"socile",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/socialEdit.js"
+			],
+			[
+				"wp-con",
+				"wp-config.php"
+			],
+			[
+				"overla",
+				"wp-content/themes/savoir-flair/templates/components/fashion-week/overlay.php"
+			],
+			[
+				"overlay.php",
+				"wp-content/themes/savoir-flair/templates/components/ads/overlay.php"
+			],
+			[
+				"wp-config",
+				"wp-config.php"
+			],
+			[
+				"account-mod",
+				"wp-content/themes/savoir-flair/assets/styles/components/_account-modal.scss"
+			],
+			[
+				"filterg",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/filterGroup.js"
+			],
+			[
+				"curt",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/curtain.js"
+			],
+			[
+				"cur",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/curtain.js"
+			],
+			[
+				"accountmod",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/accountModal.js"
+			],
+			[
+				"carousel-n",
+				"wp-content/themes/savoir-flair/assets/styles/components/_carousel-nudge.scss"
+			],
+			[
+				"runway",
+				"wp-content/themes/savoir-flair/assets/styles/components/fashion-show/_runway.scss"
+			],
+			[
+				"ajax",
+				"wp-content/themes/savoir-flair/lib/ajax.php"
+			],
+			[
+				"sf_f",
+				"wp-content/themes/savoir-flair/lib/functions/sf_function-fashion-week.php"
+			],
+			[
+				"popup",
+				"wp-content/plugins/w3-total-cache/pub/css/popup.css"
+			],
+			[
+				"tab",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/tab.js"
+			],
+			[
+				"parall",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/parallax.js"
+			],
+			[
+				"templ",
+				"wp-content/themes/savoir-flair/templates/components/templates.php"
+			],
+			[
+				"nav.",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/nav.js"
+			],
+			[
+				"account-",
+				"wp-content/themes/savoir-flair/assets/styles/components/_account-modal.scss"
+			],
+			[
+				"account",
+				"wp-content/themes/savoir-flair/assets/styles/components/_account.scss"
+			],
+			[
+				"html.scss",
+				"wp-content/themes/savoir-flair/assets/styles/generic/_html.scss"
+			],
+			[
+				"fashionwee",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/fashionWeekListing.js"
+			],
+			[
+				"fashion",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/fashionShow.js"
+			],
+			[
+				"core.js",
+				"wp-content/themes/savoir-flair/assets/scripts/modules/core.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/sf.dev/sf.dev.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
