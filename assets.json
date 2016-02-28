@@ -1,0 +1,46 @@
+{
+    "admin" : {
+
+        "sass" : {
+            "source" : "./public/back/src/styles/main.scss",
+            "sourceDir" : "./public/back/src/styles/",
+            "destination" : "./public/back/css"
+        },
+
+        "script" : {
+            "destination" : "./public/back/js",
+            "sourceDir" : "./public/back/src/scripts/",
+            "source" : [
+                "helpers",
+                "_app",
+                "modal",
+                "upload",
+                "list",
+                "imageSelect",
+                "pdfSelect",
+                "conditionalInput"
+            ]
+        }
+
+    },
+
+    "front" : {
+
+        "sass" : {
+            "source" : "./public/front/src/styles/main.scss",
+            "sourceDir" : "./public/front/src/styles/",
+            "destination" : "./public/front/css"
+        },
+
+        "script" : {
+            "destination" : "./public/front/js",
+            "sourceDir" : "./public/front/src/scripts/",
+            "source" : [
+                "helpers",
+                "_app"
+            ]
+        }
+
+    }
+    
+}
