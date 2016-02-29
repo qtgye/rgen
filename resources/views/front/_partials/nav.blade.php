@@ -38,4 +38,4 @@
 		</div><!-- /.nav --> 
 		
 	</div><!-- /.container --> 
-</nav><!-- /.nav-wrp --><!-- Slider
+</nav><!-- /.nav-wrp -->

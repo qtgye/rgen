@@ -2,6 +2,6 @@
 
 @section('content')
 
-    @include('front.news.hero')
+    News
 
 @stop

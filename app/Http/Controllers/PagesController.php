@@ -41,6 +41,22 @@ class PagesController extends Controller
         return view('front.about', $data);
     }
 
+    public function services ()
+    {
+        $data = array_merge(self::$data,[
+            // 'projects' => \App\Project::all(),
+        ]);
+        return view('front.services', $data);
+    }
+
+    public function technologies ()
+    {
+        $data = array_merge(self::$data,[
+            // 'projects' => \App\Project::all(),
+        ]);
+        return view('front.technologies', $data);
+    }
+
     public function projects ()
     {
         $data = array_merge(self::$data,[
@@ -51,6 +67,10 @@ class PagesController extends Controller
 
     public function news ()
     {
+        $data = array_merge(self::$data,[
+            // 'projects' => \App\Project::all(),
+        ]);
+        return view('front.news', $data);
         
     }
 
