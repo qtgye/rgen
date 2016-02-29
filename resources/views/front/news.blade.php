@@ -2,6 +2,6 @@
 
 @section('content')
 
-    News
+    @include('front._partials.dummy_2')
 
 @stop
