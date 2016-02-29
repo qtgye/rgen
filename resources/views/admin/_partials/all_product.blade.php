@@ -14,8 +14,7 @@
             <img class="list-thumbnail js-zoomable" src="/uploads/{{ $item->image }}" alt="">
         @endif
     </td>
-    <td class="center-text">{{ $item->category }}</td>
-    <td class="center-text">{{ $item->type }}</td>
+    <td class="center-text">{{ implode(',',$item->getCategoriesText()) }}</td>
     <td class="">
         <div class="btn-group">
             <a class="btn btn-success" href="/admin/product/{{ $item->id }}"><i class="fa fa-edit"></i></a>

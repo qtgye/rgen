@@ -9,35 +9,66 @@
   </div>
 </div>
 
+<?php $category = isset($product->category) ? $product->category : null;?>
 <!-- CATEGORY -->
 <div class="form-group {{ $errors->has('category') ? 'has-error' : '' }}">
-    <label class="control-label col-lg-2" for="category_products">Category <span class="required">*</span></label>
+    <label class="control-label col-lg-2" for="">Category <span class="required">*</span></label>
     <div class="col-lg-10">
-        {!! Form::select('category', [
-            'residential' => 'Residential',
-            'commercial' => 'Commercial',
-            'industrial' => 'Industrial',
-        ], isset($product) ? $product->category : '' , [
-            'class' => 'form-control m-bot15',
-            'id' => 'category_products'
-        ]) !!}
-    </div>
-</div>
-
-<!-- TYPE -->
-<!-- small,multifamily,industrial,other -->
-<div class="form-group {{ $errors->has('type') ? 'has-error' : '' }}">
-    <label class="control-label col-lg-2" for="type_products">Type <span class="required">*</span></label>
-    <div class="col-lg-10">
-        {!! Form::select('type', [
-            'small' => 'Small',
-            'multifamily' => 'Multi Family',
-            'industrial' => 'Industrial',
-            'other' => 'Other',
-        ], isset($product) ? $product->type : '' , [
-            'class' => 'form-control m-bot15',
-            'id' => 'type_products'
-        ]) !!}
+        <!-- Residential -->
+        <div class="form-group">
+          <div class="col-md-3">
+            <label class="control-label col-sm-12" for="">Residential :</label>
+          </div>
+          <div class="col-md-9">
+            <label class="text-left control-label col-lg-3" for="category-residential-small">
+              {!! Form::checkbox('category[]', 'residential-small', (isset($category) && in_array('residential-small',$category) ? true : false ), ['id'=>'category-residential-small'] ) !!} 
+              Small
+            </label>
+            <label class="text-left control-label col-lg-3" for="category-residential-multifamily">
+              {!! Form::checkbox('category[]', 'residential-multifamily', (isset($category) && in_array('residential-multifamily',$category) ? true : false ), ['id'=>'category-residential-multifamily'] ) !!} 
+              Multi Family
+            </label>
+            <label class="text-left control-label col-lg-3" for="category-residential-other">
+              {!! Form::checkbox('category[]', 'residential-other', (isset($category) && in_array('residential-other',$category) ? true : false ), ['id'=>'category-residential-other'] ) !!} 
+              <em>Other</em>
+            </label>
+          </div>    
+          <hr>      
+        </div>
+        <!-- Commercial -->
+        <div class="form-group">
+          <div class="col-md-3">
+            <label class="control-label col-sm-12" for="">Commercial :</label>
+          </div>
+          <div class="col-md-9">
+            <label class="text-left control-label col-lg-3" for="category-commercial-default">
+              {!! Form::checkbox('category[]', 'commercial-default', (isset($category) && in_array('commercial-default',$category) ? true : false ), ['id'=>'category-commercial-default'] ) !!} 
+              Commercial
+            </label>
+            <label class="text-left control-label col-lg-3" for="category-commercial-other">
+              {!! Form::checkbox('category[]', 'commercial-other', (isset($category) && in_array('commercial-other',$category) ? true : false ), ['id'=>'category-commercial-other'] ) !!} 
+              <em>Other</em>
+            </label>
+          </div>        
+          <hr>  
+        </div>
+        <!-- Industrial -->
+        <div class="form-group">
+          <div class="col-md-3">
+            <label class="control-label col-sm-12" for="">Industrial :</label>
+          </div>
+          <div class="col-md-9">
+            <label class="text-left control-label col-lg-3" for="category-industrial-default">
+              {!! Form::checkbox('category[]', 'industrial-default', (isset($category) && in_array('industrial-default',$category) ? true : false ), ['id'=>'category-industrial-default'] ) !!} 
+              Industrial
+            </label>
+            <label class="text-left control-label col-lg-3" for="category-industrial-other">
+              {!! Form::checkbox('category[]', 'industrial-other', (isset($category) && in_array('industrial-other',$category) ? true : false ), ['id'=>'category-industrial-other'] ) !!} 
+              <em>Other</em>
+            </label>
+          </div>          
+        </div>
+        
     </div>
 </div>
 

@@ -264,6 +264,10 @@ img.list-thumbnail.thumbnail-small {
   max-width: 200px;
 }
 
+.text-left {
+  text-align: left !important;
+}
+
 .c-image-select.is-uploading {
   pointer-events: none;
 }

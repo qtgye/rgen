@@ -33,3 +33,12 @@
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-left {
+  text-align: left;
+}

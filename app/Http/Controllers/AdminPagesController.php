@@ -89,6 +89,7 @@ class AdminPagesController extends Controller
 
     public function update ($model_name,$id, Request $request)
     {
+
         if ( array_key_exists($model_name, self::$data['resourced_models']) ) {
 
             $model = '\\App\\' . ucfirst($model_name);
@@ -109,8 +110,8 @@ class AdminPagesController extends Controller
             $model = '\\App\\' . ucfirst($model_name);
             self::update_page_data($model_name);
             self::$data['model_plural'] = $model::$plural;
-            self::$data['subpage'] = 'create';
-            self::$data['subpage_title'] = 'New';
+            self::$data['subpage'] = 'update';
+            self::$data['subpage_title'] = 'Update';
             self::$data['submit_text'] = 'Save';
             self::$data[$model_name] = call_user_func( [$model,'find'], $id );
 

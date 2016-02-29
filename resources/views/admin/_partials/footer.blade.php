@@ -1,6 +1,6 @@
 
   </section>
-  <!-- container section start -->
+  <!-- container section end -->
 
     <!-- javascripts -->
   <script src="/back/js/jquery.js"></script>
