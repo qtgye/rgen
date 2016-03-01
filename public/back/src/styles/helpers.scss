@@ -1,6 +1,6 @@
-// 
+// -------------------------------------------
 // Helper placeholders
-// 
+// -------------------------------------------
 
 %clearfix {
     &:before, &:after {
@@ -31,3 +31,74 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+
+// -------------------------------------------
+// Variables and maps
+// -------------------------------------------
+
+// mobile-first (min-width) breakpoint sizes
+$breakpoint : (
+    'narrow' : 320,
+    'medium' : 768,
+    'large'  : 1024
+);
+
+// color palettes
+$colors : (
+    blue    : (
+        x-light   : lighten(#6086FF,32%),
+        light   : lighten(#6086FF,25%),
+        base    : #6086FF,
+        dark    : darken(#6086FF,25%)
+    ),
+    green    : (
+        light   : lighten(#2EFF95,25%),
+        base    : #2EFF95,
+        dark    : darken(#2EFF95,25%)
+    ),
+    red    : (
+        light   : lighten(#FF2C4C,25%),
+        base    : #FF2C4C,
+        dark    : darken(#FF2C4C,25%)
+    ),    
+    gray : (
+        light   : lighten(#DDD,10%),
+        base    : #DDD,
+        dark    : darken(#DDD,20%)
+    ),
+    white : (
+        base    : #fff
+    ),
+    black : (
+        base    : #333
+    )
+);
+
+
+
+
+// -------------------------------------------
+// Mixins
+// -------------------------------------------
+
+@mixin breakpoint( $size ) {
+    $px : map-get( $breakpoint, $size );
+    @media (min-width : #{$px}px ) {
+        @content
+    }
+};
+
+@function palette( $color, $adj : "base" ) {
+    $output : transparent;
+    @if map-has-key( $colors, $color ) {
+        $color_set : map-get( $colors, $color );
+        $adjustment : base;
+        @if map-has-key( $color_set, $adj ) {
+            $adjustment : $adj;
+        }
+        $output : map-get( $color_set, $adjustment );
+    }
+    @return $output;
+};

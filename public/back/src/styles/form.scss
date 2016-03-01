@@ -2,6 +2,30 @@
 // Handles the styles for Create and Edit default forms
 // 
 
+.form-panel {
+    
+}
+
+
+
+.form-panel-heading {
+    background-color: palette(blue);
+    color: palette(white);
+}
+
+
+
+.form-panel-body {
+    padding: 15px;
+    box-shadow: inset 0 1px 0 0 palette(blue,light);
+    @each $position in left, right, bottom {
+        border-#{$position} : 1px solid palette(blue,light);
+    }
+
+}
+
+
+
 .form {
 
 }

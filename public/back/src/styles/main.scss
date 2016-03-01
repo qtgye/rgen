@@ -5,10 +5,18 @@
 
 @import 'helpers';
 
+// Overrides
+@import 'form';
+@import 'buttons';
+@import 'table';
+@import 'alert';
+@import 'tab';
 
 // Modules
+@import 'layout';
+@import 'header';
+@import 'sidebar';
 @import 'upload';
 @import 'list';
-@import 'form';
 @import 'image-select';
 @import 'conditional-form';

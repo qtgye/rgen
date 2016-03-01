@@ -1,32 +1,32 @@
 <!-- sidebar start-->
-  <aside>
-      <div id="sidebar"  class="nav-collapse ">
+  <aside class="col-md-2 clearfix">
+      <div id="sidebar"  class="n">
           <!-- sidebar menu start-->
 
           <!-- CONTROLLER PAGES -->
           
           @if ( $resourced_models )
 
-            <ul class="sidebar-menu">     
+            <ul class="sidebar-nav">     
 
-              <li class="sub-menu {{ ( $page == 'info' ? 'active' : '' ) }}">
-                  <a href="/admin/info" class="">
+              <li class="sidebar-item {{ ( $page == 'info' ? 'active' : '' ) }}">
+                  <a class="sidebar-link" href="/admin/info" class="">
                       <!-- <i class="icon_document_alt"></i> -->
                       <span>Site Info</span>
                   </a>
               </li>       
 
               @foreach ( $resourced_models as $model_name => $title)
-                <li class="sub-menu {{ ( $page == $model_name ? 'active' : '' ) }}">
-                    <a href="javascript:;" class="">
+                <li class="sidebar-item {{ ( $page == $model_name ? 'active' : '' ) }}">
+                    <a class="sidebar-link" href="/admin/{{$model_name}}">
                         <!-- <i class="icon_document_alt"></i> -->
                         <span>{{ $title }}</span>
-                        <span class="menu-arrow arrow_carrot-right"></span>
                     </a>
-                    <ul class="sub">
+                    <a class="animated-cross" href="/admin/{{$model_name}}/new" class="animated-cross"></a>
+                    <!-- <ul class="sub">
                       <li class="{{ !isset($method) ? 'active' : '' }}"><a class="" href="/admin/{{$model_name}}">All</a></li>
                       <li class="{{ isset($subpage) && $page == $model_name ? 'active' : '' }}"><a class="" href="/admin/{{$model_name}}/new">New</a></li>
-                    </ul>
+                    </ul> -->
                 </li>              
               @endforeach
               

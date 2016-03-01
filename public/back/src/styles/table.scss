@@ -1,0 +1,34 @@
+.table {
+
+    thead {
+
+        tr  {
+            
+            th {
+                background-color: transparent;
+                border-top: none;
+                border-bottom: 2px solid palette(blue);
+                text-align: center;
+            }
+        }
+        
+    }
+
+    tbody {
+
+        tr {
+            transition: background-color .3s ease;
+
+            &:hover {
+                background-color: palette(gray,light);
+            }            
+
+            td {
+                border-top: none;
+            }
+
+        }
+        
+    }
+
+}

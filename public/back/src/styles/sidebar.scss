@@ -1,0 +1,123 @@
+aside {
+    position: fixed !important;
+    padding-left: 0 !important;
+    padding-right: 25px !important;
+}
+
+
+
+#sidebar {
+    background-color: transparent;
+    width: auto;
+    position: relative;
+}
+
+
+
+ul.sidebar-nav {
+    margin-top: 105px;
+    background-color: palette(white);
+    padding: 0;
+}
+
+
+
+li.sidebar-item {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 0 palette(blue,dark);
+    transition: all .3s ease;
+
+    .active {
+        .sidebar-link {
+            background-color: palette(blue,dark);
+            color: palette(blue,light);
+        }
+    }
+}
+
+
+
+a.sidebar-link:link,
+a.sidebar-link:active,
+a.sidebar-link:visited {
+    display: block;
+    padding: 12px 10px;
+    border: none;
+    border-bottom: 1px solid palette(blue,light);
+    color: palette(blue,blue);
+    font-size: 1.2em;
+    font-weight: lighter;
+    box-shadow: inset 0 0 0 0 palette(blue,dark);
+
+    .sidebar-item:hover &,
+    .sidebar-item.active & {
+        background-color: transparent;
+        color: palette(blue,dark);
+        box-shadow: inset 3px 0 0 0 palette(blue,dark);
+    }
+}
+
+
+
+.animated-cross {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+    // overflow: hidden;
+    padding: 5px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: palette(blue,light);
+    }
+
+    &:before {
+        content: '';
+        background-color: palette(blue);
+        width: 80%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        pointer-events: none;
+        opacity: 0;
+        transition: left .3s .05s ease,
+                    opacity .3s .05s ease;
+
+        .sidebar-item:hover & {
+            pointer-events: auto;
+            left: 3px;
+            opacity: 1;
+        }
+    }
+
+    &:after {
+        content: '';
+        background-color: palette(blue);
+        width: 1px;
+        height: 80%;
+        position: absolute;
+        top: -100%;
+        left: 50%;
+        pointer-events: none;
+        opacity: 0;
+        transform: translateX(-1px);
+        transition: top .3s ease,
+                    opacity .3s ease;
+
+        .sidebar-item:hover & {
+            pointer-events: auto;
+            top: 3px;
+            opacity: 1;
+        }
+    }
+}

@@ -2,23 +2,26 @@
 
 @section('content')
 	<div class="col-lg-12 c-list js-list" data-model="{{ $model_name }}">
+            
+      @if ( session()->has('success') )
+        <div class="alert alert-block alert-success fade in">
+          {{ session()->get('success') }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+      @endif       
       
-      @if (session()->has('success'))
-          <div class="alert alert-block alert-success fade in">
-            {{ session()->get('success') }}
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          </div>
-        @endif
 
-      <section class="panel">
+      @if ( count($items) > 0 )
+        
+        <section class="panel form-panel">
 
-          <header class="panel-heading">
+          <header class="panel-heading form-panel-heading">
               All {{ $model_plural }}
           </header>
           
-          <div class="panel-body">
+          <div class="form-panel-body">
             {!! Form::open() !!}
-              <table class="table table-striped table-advance table-hover list-table">
+              <table class="table table-advance list-table">
                  <tbody>      
                     @include('admin._partials.all_'.$model_name)
                  </tbody>
@@ -26,7 +29,22 @@
             {!! Form::close()!!}            
           </div>
           
-      </section>
+        </section>
+
+      @else
+        
+        <blockquote>
+          <p>
+            You have no entry here yet.
+          </p>
+          <p>
+            <a class="btn btn-primary" href="/admin/{{ $model_name }}/new">Add your first {{ $page_title }}</a>
+          </p>
+        </blockquote>
+
+      @endif
+
+      
   </div>
 
   <!-- confirm modal -->

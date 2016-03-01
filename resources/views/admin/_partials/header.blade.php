@@ -48,35 +48,39 @@
   <!-- container section start -->
   <section id="container" class="">
 
-    <header class="header dark-bg">
+    <header class="header">
+        <div class="header-content clearfix">
+            
+            <!--logo start-->
+            <a href="/admin" class="logo"><span class="lite">Admin Panel</span></a>
+            <!--logo end-->      
 
-        <div class="toggle-nav">
-            <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
-        </div>   
+            <div class="search-row">
+                
+            </div>  
 
-        <!--logo start-->
-        <a href="/admin" class="logo"><span class="lite">Admin Panel</span></a>
-        <!--logo end-->      
+            <div class="nav search-row" id="top_menu">
+                <!--  search form start -->
+                <!-- <ul class="nav top-menu">                    
+                    <li>
+                        <form class="navbar-form">
+                            <input class="form-control" placeholder="Search" type="text">
+                        </form>
+                    </li>                    
+                </ul> -->
+                <!--  search form end -->                
+            </div>
 
-        <div class="search-row">
-            <a href="/" class="btn btn-default text-info"><i class="fa fa-home"></i> Go to Site</a>
-        </div>  
+            <div class="nav search-row pull-right">
+                <a href="/" class="btn text-primary"><i class="fa fa-home"></i> Go to Site</a>
+                <span class="text-disabled">|</span>
+                <a href="/logout" class="btn text-default text-muted"><i class="fa fa-sign-out"></i> Logout</a>
+            </div>
 
-        <div class="nav search-row" id="top_menu">
-            <!--  search form start -->
-            <!-- <ul class="nav top-menu">                    
-                <li>
-                    <form class="navbar-form">
-                        <input class="form-control" placeholder="Search" type="text">
-                    </form>
-                </li>                    
-            </ul> -->
-            <!--  search form end -->                
-        </div>
+            <div class="header-divider"></div>
 
-        <div class="nav search-row pull-right">
-            <a href="/logout" class="btn btn-default"><i class="fa fa-sign-out"></i> Logout</a>
-        </div>
+        </div>       
+        
 
-  </header>      
+    </header>      
   <!--header end-->

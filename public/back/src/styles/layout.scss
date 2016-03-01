@@ -1,0 +1,30 @@
+body {
+    background-color: palette(blue,x-light);
+}
+
+
+
+#container {
+    display: block;
+    margin: auto;
+
+    @include breakpoint(large) {
+        width: 1024px;
+    }
+}
+
+
+
+ol.breadcrumb {
+    height: auto;
+    text-align: right;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+    box-shadow: none;
+
+    a:active, a:link,
+    a:visited {
+        color: inherit;
+    }
+}

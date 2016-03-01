@@ -1,0 +1,32 @@
+.btn-group {
+    font-size: 0;
+}
+
+
+
+.btn {
+    transition: all .3s ease;
+}
+
+
+
+.btn-default {
+
+    &:hover {
+        background-color: palette(gray);
+        border-color: palette(gray);
+        color: palette(black);
+    }
+}
+
+.btn-success {    
+    background-color: palette(green,dark);
+    border-color: palette(green,dark);
+}
+
+
+
+.btn-danger {    
+    background-color: palette(red);
+    border-color: palette(red);
+}

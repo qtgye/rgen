@@ -11,11 +11,11 @@
         </ul>
       @endif
 
-      <section class="panel">
-          <header class="panel-heading">
+      <section class="panel form-panel">
+          <header class="panel-heading form-panel-heading">
             New {{ $page_title }}
           </header>
-          <div class="panel-body">
+          <div class="form-panel-body">
               {!! 
                   Form::open( [
                     'url' => 'admin/' . $model_name,

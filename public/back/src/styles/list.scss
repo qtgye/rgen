@@ -17,6 +17,12 @@
 
 
 
+.list-header {
+    
+}
+
+
+
 .list-column-header {
 
     th {
@@ -28,6 +34,11 @@
 
 
 .list-row {
+
+    &:hover .btn-success,
+    &:hover .btn-danger {
+        left: 0;
+    }
 
     td {
         width: 1px;
@@ -65,4 +76,44 @@ img.list-thumbnail {
 
 .center-text {
     text-align: center !important;
+}
+
+
+
+.form-actions {
+    transition: all .3s ease;
+    opacity: 0;
+
+    .list-row:hover & {
+        opacity: 1;        
+    }
+
+    .btn-success,
+    .btn-danger {
+        position: relative;
+        transition: all .3s ease;
+        background-color: transparent;
+        border-color: transparent;
+        color: palette(gray,dark);
+    }
+
+    .btn-success {
+        left: -10px;
+
+        &:hover {
+            background-color: palette(green,dark) !important;
+            border-color: palette(green,dark);
+            color: palette(white);
+        }
+    }
+
+    .btn-danger {
+        left: 10px;
+
+        &:hover {
+            background-color: palette(red) !important;
+            border-color: palette(red);
+            color: palette(white);
+        }
+    }
 }

@@ -2,7 +2,7 @@
     <!-- header -->
     <th class="">Name</th>
     <th class="">Value</th>
-    <th class=""><em>Action</em></--></th>
+    <th class=""></th>
 </tr>
 @foreach ($items as $key => $item)
 <tr class="list-row" data-item-id="{{ $item->id }}">    

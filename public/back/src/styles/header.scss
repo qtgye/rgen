@@ -1,0 +1,23 @@
+header.header {
+    background-color: palette(white);
+}
+
+
+
+.header-content {
+    display: block;        
+
+    @include breakpoint(medium) {
+        width: 1024px;
+        margin: auto;
+    };
+}
+
+
+
+.header-divider {
+    display: block;
+    padding-bottom: 15px;
+    border-bottom: 3px solid palette(blue);
+    clear: both;
+}

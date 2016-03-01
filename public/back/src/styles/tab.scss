@@ -1,0 +1,13 @@
+.tab-bg-primary {
+    background-color: palette(gray);
+
+    li {
+        border-top: 3px solid transparent !important;
+        border-left: none !important;
+        transition: all .3s ease;
+
+        &.active {
+            border-top: 3px solid palette(gray,dark) !important;
+        }
+    }
+}

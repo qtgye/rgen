@@ -18,7 +18,7 @@
   <script src="/back/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
   <script src="/back/js/owl.carousel.js" ></script>
   <!-- jQuery full calendar -->
-  <<script src="/back/js/fullcalendar.min.js"></script> <!-- Full Google Calendar - Calendar -->
+  <script src="/back/js/fullcalendar.min.js"></script> <!-- Full Google Calendar - Calendar -->
 	<script src="/back/assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
   <!--script for this page only-->
   <script src="/back/js/calendar-custom.js"></script>

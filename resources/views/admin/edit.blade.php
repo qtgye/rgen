@@ -18,11 +18,11 @@
         </div>
       @endif
 
-      <section class="panel">
-          <header class="panel-heading">
+      <section class="panel form-panel">
+          <header class="panel-heading form-panel-heading">
             Edit {{ $page_title }}
           </header>
-          <div class="panel-body">
+          <div class="form-panel-body">
               {!! 
                   Form::model( isset($$model_name) ? $$model_name : null, [
                     'url' => 'admin/' . $model_name . '/' . (isset($$model_name) ? $$model_name->id : ''),
